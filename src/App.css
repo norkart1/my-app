@@ -1,14 +1,10 @@
-/* Center content and style text */
-.container {
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #1e1e2f, #4c3b6c);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #282c34;
+  margin: 0;
 }
 
-.title {
-  color: #61dafb;
-  font-size: 3rem;
-  font-family: Arial, sans-serif;
-}
